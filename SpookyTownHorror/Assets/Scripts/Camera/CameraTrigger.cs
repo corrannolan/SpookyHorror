@@ -13,7 +13,7 @@ public class CameraTrigger : MonoBehaviour {
     Vector3 turnVect;
 
     bool switched = true;
-    public float newDirDel = 5.5f;
+    public float newDirDel = 0.365f;
 
 	// Use this for initialization
 	void Start () {
