@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour {
     public GameObject currentCam;
     //CinemachineVirtualCamera vCam;
 
+    public bool canMove = true;
     bool moving = false;
     bool gotCam = true;
 
@@ -42,18 +43,21 @@ public class PlayerMovement : MonoBehaviour {
             pT.parentDir = gameObject.transform;
         }
 
-        if (player.GetAxis("MoveV") != 0 || player.GetAxis("MoveH") != 0)
+        if(canMove == true)
         {
-            moving = true;
+            if (player.GetAxis("MoveV") != 0 || player.GetAxis("MoveH") != 0)
+            {
+                moving = true;
 
-            Vector3 fDir = gameObject.transform.forward * (player.GetAxisRaw("MoveV"));
-            Vector3 rDir = gameObject.transform.right * (player.GetAxisRaw("MoveH"));
-            dir = new Vector3(fDir.x + rDir.x, rB.velocity.y, rDir.z + fDir.z);
+                Vector3 fDir = gameObject.transform.forward * (player.GetAxisRaw("MoveV"));
+                Vector3 rDir = gameObject.transform.right * (player.GetAxisRaw("MoveH"));
+                dir = new Vector3(fDir.x + rDir.x, rB.velocity.y, rDir.z + fDir.z);
 
-            rB.velocity = dir * moveSpeed;
+                rB.velocity = dir * moveSpeed;
+            }
+            else
+                moving = false;
         }
-        else
-            moving = false;
 	}
 
     public void NewDir()
