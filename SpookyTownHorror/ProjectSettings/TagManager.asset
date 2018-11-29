@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hidden
   - Hide
+  - dialogue
   layers:
   - Default
   - TransparentFX

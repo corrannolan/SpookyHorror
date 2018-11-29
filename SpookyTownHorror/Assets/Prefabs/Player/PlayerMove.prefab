@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 4591895753872852}
   - component: {fileID: 136230349795746170}
   - component: {fileID: 54421534513082272}
+  - component: {fileID: 114884245003329940}
   - component: {fileID: 114163282007220236}
   - component: {fileID: 114621334906171662}
   - component: {fileID: 195419999510650178}
@@ -266,6 +267,18 @@ MonoBehaviour:
   crouchHeight: 0.85
   unhiddenTag: Player
   hiddenTag: Hidden
+--- !u!114 &114884245003329940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1920669711073134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f4c78efb41637c4bb2467d49fe6d610, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dm: {fileID: 0}
 --- !u!136 &136230349795746170
 CapsuleCollider:
   m_ObjectHideFlags: 1
