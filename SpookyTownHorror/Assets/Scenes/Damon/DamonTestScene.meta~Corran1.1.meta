@@ -1,7 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:SpookyTownHorror/Assets/Scenes/Damon/DamonTestScene.meta~Corran1.1.meta
 guid: 48ef45f8ed4b1224198a60c6fa701b0a
+=======
+guid: 1e24085edff8e4e499582d8dcf099510
+timeCreated: 1493908344
+licenseType: Store
+>>>>>>> parent of 80c9c94... Merge branch 'Corran1.1':SpookyTownHorror/Assets/Cinemachine/Timeline/LegacyTimelineAPI.unitypackage.meta
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
