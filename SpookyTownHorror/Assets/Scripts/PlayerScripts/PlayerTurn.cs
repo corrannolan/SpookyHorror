@@ -9,7 +9,7 @@ public class PlayerTurn : MonoBehaviour {
 
     public GameObject pMove;
 
-    Rigidbody rB;
+    //Rigidbody rB;
     public Transform parentDir;
     Vector3 turnDir;
 
@@ -17,7 +17,7 @@ public class PlayerTurn : MonoBehaviour {
 	void Start () {
         player = ReInput.players.GetPlayer(playerNum);
 
-        rB = gameObject.GetComponent<Rigidbody>();
+        //rB = gameObject.GetComponent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
