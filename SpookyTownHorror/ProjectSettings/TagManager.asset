@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hidden
   - Hide
+  - item
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - 
   - PostProcessing
   - Ground
-  - 
-  - 
+  - item
+  - interact
   - 
   - 
   - 
