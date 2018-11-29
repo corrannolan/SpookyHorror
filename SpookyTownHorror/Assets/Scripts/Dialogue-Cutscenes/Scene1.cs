@@ -6,6 +6,9 @@ using UnityEngine.AI;
 public class Scene1 : MonoBehaviour {
     public GameObject[] points;
 
+    public int currentPoint;
+    Transform desPoint;
+
 	// Use this for initialization
 	void Start () {
 		
