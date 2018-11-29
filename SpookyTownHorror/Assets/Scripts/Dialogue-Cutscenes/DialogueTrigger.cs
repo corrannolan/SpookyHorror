@@ -5,6 +5,7 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour {
 
     public DialogueManager dm;
+    public int dialogueCount;
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +16,8 @@ public class DialogueTrigger : MonoBehaviour {
     {
         if (other.gameObject.tag == "dialogue")
         {
-            StartCoroutine(dm.showDialogue());
+            StartCoroutine(dm.showDialogue(dialogueCount));
+            dialogueCount++;
         }
     }
 }

@@ -28,7 +28,9 @@ public class Tutorial : MonoBehaviour {
         if (player.GetButtonDown("Crouch") && pm.canMove == false)
         {
             cm.MoveNext();
+            Debug.Log("good work : crouching");
             pm.canMove = true;
+            Destroy(gameObject, 0.3f);
         }
     }
 
@@ -39,6 +41,7 @@ public class Tutorial : MonoBehaviour {
             if (tutorialTopic == "crouch")
             {
                 pm.canMove = false;
+                pm.rB.velocity = new Vector3(0f, 0f, 0f);
                 crouchUI.SetActive(true);
                 
             }

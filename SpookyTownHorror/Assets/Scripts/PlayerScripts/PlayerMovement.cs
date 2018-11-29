@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour {
     Player player;
     public int playerNum;
 
-    Rigidbody rB;
+    public Rigidbody rB;
     Vector3 dir;
     public float moveSpeed;
 

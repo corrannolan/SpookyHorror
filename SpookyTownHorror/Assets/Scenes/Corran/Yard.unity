@@ -1220,7 +1220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &253761011
 Transform:
   m_ObjectHideFlags: 0
@@ -3232,7 +3232,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 464002228}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2, y: 0, z: -1}
+  m_LocalPosition: {x: 1.5, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1465621382}
@@ -6665,7 +6665,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &797189765
 Transform:
   m_ObjectHideFlags: 0
@@ -8298,7 +8298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1034260691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8310,14 +8310,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1a0fed1d6f38e4a99b948d684e3872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueOptions:
-  - 'CAL: Ahh...'
-  - 'THEO: What?'
+  dialogueP1:
+  - 'CAL: Ahh'
+  - 'CAL: Theo..help..'
+  - 'THEO: What...?'
+  dialogueP2:
   - 'CAL: Boo!'
-  - 'CAL: Haha, you smiled!'
-  - 'THEO: Wow you''re so cute.'
+  - 'CAL: You smiled! :)'
+  - 'THEO: Gosh you are so cute.'
   dialogueBox: {fileID: 1884427568}
   dialogueNum: 0
+  p1Max: 3
+  p2Max: 3
   speechLength:
   - 2
   - 2
@@ -8327,9 +8331,6 @@ MonoBehaviour:
   triggerOrder:
   - {fileID: 464002228}
   - {fileID: 1977538470}
-  - {fileID: 1844071831}
-  - {fileID: 797189764}
-  - {fileID: 253761010}
   panel: {fileID: 905505987}
 --- !u!4 &1034260692
 Transform:
@@ -12485,7 +12486,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1465621382
 Transform:
   m_ObjectHideFlags: 0
@@ -14959,7 +14960,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1844071832
 Transform:
   m_ObjectHideFlags: 0
@@ -15462,7 +15463,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1977538470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.5, y: 0, z: -1}
+  m_LocalPosition: {x: 6.5, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1465621382}
@@ -16621,7 +16622,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4591895753872852, guid: 617a56bafdf02a249a077031f7050ab7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4591895753872852, guid: 617a56bafdf02a249a077031f7050ab7, type: 2}
       propertyPath: m_LocalPosition.y
