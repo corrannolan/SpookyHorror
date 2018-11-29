@@ -6,7 +6,11 @@ TagManager:
   tags:
   - Hidden
   - Hide
+<<<<<<< HEAD
   - dialogue
+=======
+  - item
+>>>>>>> Corran1.1
   layers:
   - Default
   - TransparentFX
@@ -18,8 +22,8 @@ TagManager:
   - 
   - PostProcessing
   - Ground
-  - 
-  - 
+  - item
+  - interact
   - 
   - 
   - 
