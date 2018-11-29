@@ -31,8 +31,6 @@ public class CharacterMovement : MonoBehaviour {
         {
             stopped = true;
             nM.isStopped = true;
-
-            NextPoint();
         }
     }
 
@@ -49,6 +47,7 @@ public class CharacterMovement : MonoBehaviour {
 
     public void MoveNext()
     {
+        NextPoint();
         stopped = false;
     }
 }
