@@ -17,10 +17,10 @@ TagManager:
   - 
   - PostProcessing
   - Ground
-  - 
-  - 
-  - 
-  - 
+  - item
+  - interact
+  - Inpplayerut.GetButtoplayernDown
+  - player
   - 
   - 
   - 
