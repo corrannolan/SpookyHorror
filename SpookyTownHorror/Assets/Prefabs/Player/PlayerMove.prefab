@@ -101,7 +101,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1920669711073134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 6, z: 6}
+  m_LocalPosition: {x: -0.25, y: 6, z: 6.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4213792810636474}
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerNum: 0
-  moveSpeed: 5
+  moveSpeed: 3.9
   currentCam: {fileID: 0}
   canMove: 1
 --- !u!114 &114408062764790422
@@ -272,7 +272,7 @@ CapsuleCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1920669711073134}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 36cd0f98c267e2c47bf67aec6482a14c, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
