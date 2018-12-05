@@ -15,6 +15,8 @@ public class CameraTrigger : MonoBehaviour {
     bool switched = true;
     public float newDirDel = 0.365f;
 
+    public bool singleEvent = false;
+
 	// Use this for initialization
 	void Start () {
         //vCam = connectedCam.GetComponent<CinemachineVirtualCamera>();
@@ -51,7 +53,9 @@ public class CameraTrigger : MonoBehaviour {
 
         if (other.gameObject.tag == "Player")
             connectedCam.SetActive(false);
-        
+
+        if (singleEvent == true)
+            Destroy(gameObject);
     }
 
     IEnumerator newDir()
