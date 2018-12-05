@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogueManager : MonoBehaviour {
+public class DialogueManagerTest : MonoBehaviour {
 
     public string whichScene;
     public Text dialogueBox;
