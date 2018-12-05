@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
+//using TMPro;
 
 public class DialogueManager : MonoBehaviour {
     public string[] dialogue;
@@ -26,6 +26,7 @@ public class DialogueManager : MonoBehaviour {
     public void Dialogue()
     {
         StartCoroutine(nextLine());
+        print("call");
     }
 
     IEnumerator nextLine()
@@ -36,5 +37,11 @@ public class DialogueManager : MonoBehaviour {
 
         if ((line - 1) < stopLine)
             Dialogue();
+        else
+        {
+            dBox.text = "";
+        }
+
+        print("lined");
     }
 }
