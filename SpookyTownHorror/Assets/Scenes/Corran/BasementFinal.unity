@@ -15687,6 +15687,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b56130dcc6fb6214bb22f4767ebcc7fb,
     type: 3}
   m_PrefabInternal: {fileID: 647940627}
+--- !u!1 &647940629 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b56130dcc6fb6214bb22f4767ebcc7fb,
+    type: 3}
+  m_PrefabInternal: {fileID: 647940627}
+--- !u!65 &647940630
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 647940629}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6121834, y: 2.5428462, z: 0.222366}
+  m_Center: {x: -2.2630026e-16, y: 0, z: -0.031023689}
+--- !u!114 &647940631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 647940629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af117138b0857254a971c83218b9e908, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: Floor1
+  delaySwitch: 0
 --- !u!1 &650998090
 GameObject:
   m_ObjectHideFlags: 0

@@ -627,7 +627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerID: 0
-  nextScene: Yard.A
+  nextScene: Title
 --- !u!114 &1795635066
 MonoBehaviour:
   m_ObjectHideFlags: 0
