@@ -2312,13 +2312,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dM: {fileID: 670385098}
   startLine: 0
-  stopLine: 4
+  stopLine: 11
 --- !u!43 &482139534
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh28662
+  m_Name: pb_Mesh45036
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -3847,20 +3847,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - 'Calum: "Ah, oh no!"'
+  - 'Calum: "Theo...they got me...ahhhh..."'
+  - 'Theo: "Wha-... Cal?"'
+  - 'Calum: "Boo!"'
+  - 'Theo (chuckles): "What are you doing?"'
+  - 'Calum: "Getting you to smile a bit, and it looks like I succeeded!"'
+  - 'Theo (laughing): "Thanks, Cal. Come on, let''s get this over with."'
+  - 'Theo: "Is she not home? I told her we were almost here... I hope she didn''t
+    just head to bed."'
+  - 'Calum: "Do you want to give her a call?"'
+  - "Theo: \"Sure... There should still be a spare key in the back. If you could go
+    grab it then we could get out of the cold. I\u2019ll wait here and call her cell."
+  - 'Calum: "Got it."'
+  - 'Calum: "Theo...? I guess his mom must have showed up...'
   dialogueTiming:
+  - 2
   - 3
-  - 3
-  - 3
-  - 3
-  - 3
-  - 3
+  - 4
+  - 2
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
   - 5
   line: 0
   stopLine: 0
