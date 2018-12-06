@@ -90,8 +90,11 @@ public class EnemyBehavior : MonoBehaviour
             }
             else if (Physics.Raycast(lowRaycast.transform.position, lowRaycast.forward, out lowhit, lowSightRange))
             {
-                chaseTarget = lowhit.transform;
-                currentState = State.Chase;
+                if (hit.collider.CompareTag("Player"))
+                {
+                    chaseTarget = lowhit.transform;
+                    currentState = State.Chase;
+                }
             }
         }
     }
