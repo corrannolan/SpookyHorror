@@ -13,7 +13,9 @@ public class CameraTrigger : MonoBehaviour {
     Vector3 turnVect;
 
     bool switched = true;
-    public float newDirDel = 0.365f;
+    public float newDirDel = 0.025f;
+
+    public bool singleEvent = false;
 
 	// Use this for initialization
 	void Start () {
@@ -37,7 +39,7 @@ public class CameraTrigger : MonoBehaviour {
         if (other.gameObject.tag == "Player")
         {
             StopAllCoroutines();
-            
+
             connectedCam.SetActive(true);
             pM.currentCam = connectedCam;
 
@@ -51,7 +53,9 @@ public class CameraTrigger : MonoBehaviour {
 
         if (other.gameObject.tag == "Player")
             connectedCam.SetActive(false);
-        
+
+        if (singleEvent == true)
+            Destroy(gameObject);
     }
 
     IEnumerator newDir()
