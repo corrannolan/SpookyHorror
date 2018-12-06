@@ -23,12 +23,13 @@ public class DialogueCaller : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
             dM.line = startLine;
             dM.stopLine = stopLine;
             dM.Dialogue();
-            nextTrigger.SetActive(true);
+            if (nextTrigger != null)
+                nextTrigger.SetActive(true);
             gameObject.SetActive(false);
         }
     }
