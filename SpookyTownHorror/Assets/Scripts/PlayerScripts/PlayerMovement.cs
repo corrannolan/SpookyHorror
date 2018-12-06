@@ -30,6 +30,8 @@ public class PlayerMovement : MonoBehaviour {
 
         gameObject.transform.forward = new Vector3(currentCam.transform.forward.x, 0, currentCam.transform.forward.z);
         pT.parentDir = gameObject.transform;
+
+
     }
 	
 	// Update is called once per frame
