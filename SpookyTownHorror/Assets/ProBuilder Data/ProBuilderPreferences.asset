@@ -12,67 +12,14 @@ MonoBehaviour:
   m_Name: ProBuilderPreferences
   m_EditorClassIdentifier: 
   m_Bool_keys: []
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   m_Int_keys: []
   m_Float_keys: []
-=======
->>>>>>> b70bf89ee4527a05939d3016bdf56c404463f18b
-<<<<<<< HEAD
-  m_Int_keys:
-  - pbHandleAlignment
-<<<<<<< HEAD
-=======
-  - pbDefaultEditLevel
-  - pbDefaultSelectionMode
-  - pb_GIWorkflowMode
->>>>>>> master
-  m_Float_keys:
-  - pbEditorScroll.x
-  - pbEditorScroll.y
-=======
-  m_Int_keys: []
-  m_Float_keys: []
->>>>>>> Damon2.0
-<<<<<<< HEAD
-=======
-  m_Int_keys: []
-  m_Float_keys: []
->>>>>>> Damon3.0
-=======
->>>>>>> master
->>>>>>> b70bf89ee4527a05939d3016bdf56c404463f18b
   m_String_keys: []
   m_Color_keys: []
   m_Material_keys: []
   m_Bool_values: 
-<<<<<<< HEAD
   m_Int_values: 
   m_Float_values: []
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_Int_values: 00000000
-=======
-  m_Int_values: 00000000000000000200000001000000
->>>>>>> master
-  m_Float_values:
-  - 0
-  - 0
-=======
-  m_Int_values: 
-  m_Float_values: []
->>>>>>> Damon2.0
-<<<<<<< HEAD
-=======
-  m_Int_values: 
-  m_Float_values: []
->>>>>>> Damon3.0
-=======
->>>>>>> master
->>>>>>> b70bf89ee4527a05939d3016bdf56c404463f18b
   m_String_values: []
   m_Color_values: []
   m_Material_values: []
