@@ -7,6 +7,8 @@ public class DialogueCaller : MonoBehaviour {
     public int startLine;
     public int stopLine;
 
+    public GameObject nextTrigger;
+
     bool called = false;
 
 	// Use this for initialization
@@ -26,6 +28,7 @@ public class DialogueCaller : MonoBehaviour {
             dM.line = startLine;
             dM.stopLine = stopLine;
             dM.Dialogue();
+            nextTrigger.SetActive(true);
             gameObject.SetActive(false);
         }
     }
