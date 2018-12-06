@@ -56,7 +56,10 @@ public class PlayerMovement : MonoBehaviour {
                 rB.velocity = dir * moveSpeed;
             }
             else
+            {
                 moving = false;
+                rB.velocity = Vector3.zero;
+            }
         }
 	}
 
