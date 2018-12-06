@@ -186,8 +186,8 @@ ModelImporter:
     2100000: lambert1
     4300000: cal
     7400000: Take 001
-    7400002: Idle
-    7400004: Walk
+    7400002: CalIdle
+    7400004: CalWalk
     9500000: //RootNode
     13700000: cal
     2186277476908879412: ImportLogs
@@ -248,7 +248,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Idle
+      name: CalIdle
       takeName: Take 001
       firstFrame: 10
       lastFrame: 15
@@ -276,18 +276,18 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Walk
+      name: CalWalk
       takeName: Take 001
-      firstFrame: 15
-      lastFrame: 65
+      firstFrame: 55
+      lastFrame: 95
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -309,7 +309,7 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -333,7 +333,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.5
+    previousCalculatedGlobalScale: 0.099999994
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
