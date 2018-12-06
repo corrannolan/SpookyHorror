@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour {
     public int stopLine;
 
     public Text dBox;
+    public GameObject dialoguePanel;
 
 	// Use this for initialization
 	void Start () {
@@ -26,6 +27,8 @@ public class DialogueManager : MonoBehaviour {
     public void Dialogue()
     {
         StartCoroutine(nextLine());
+        dialoguePanel.SetActive(true);
+        print("call");
     }
 
     IEnumerator nextLine()
@@ -36,5 +39,12 @@ public class DialogueManager : MonoBehaviour {
 
         if ((line - 1) < stopLine)
             Dialogue();
+        else
+        {
+            dBox.text = "";
+            dialoguePanel.SetActive(false);
+        }
+
+        print("lined");
     }
 }
