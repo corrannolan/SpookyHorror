@@ -13,21 +13,30 @@ public class DialogueManager : MonoBehaviour {
 
     public Text dBox;
     public GameObject dialoguePanel;
+    private PlayerMovement pm;
+    public bool stopping;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
+
+        pm = GameObject.Find("PlayerMove").GetComponent<PlayerMovement>();
+
+    }
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
-    public void Dialogue()
+    public void Dialogue(bool stopPlayer)
     {
         StartCoroutine(nextLine());
         dialoguePanel.SetActive(true);
+        if (stopPlayer)
+        {
+            pm.canMove = false;
+            stopping = true;
+        }
         print("call");
     }
 
@@ -38,10 +47,15 @@ public class DialogueManager : MonoBehaviour {
         line++;
 
         if ((line - 1) < stopLine)
-            Dialogue();
+            Dialogue(stopping);
         else
         {
             dBox.text = "";
+            if (stopping)
+            {
+                pm.canMove = true;
+                stopping = false;
+            }
             dialoguePanel.SetActive(false);
         }
 

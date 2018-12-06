@@ -59,6 +59,7 @@ public class PlayerMovement : MonoBehaviour {
             {
                 moving = false;
                 rB.velocity = Vector3.zero;
+                rB.angularVelocity = Vector3.zero;
             }
         }
 	}

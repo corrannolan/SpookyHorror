@@ -11,9 +11,11 @@ public class DialogueCaller : MonoBehaviour {
 
     bool called = false;
 
+    public bool stopPlayer;
+
 	// Use this for initialization
 	void Start () {
-		
+        
 	}
 	
 	// Update is called once per frame
@@ -27,7 +29,7 @@ public class DialogueCaller : MonoBehaviour {
         {
             dM.line = startLine;
             dM.stopLine = stopLine;
-            dM.Dialogue();
+            dM.Dialogue(stopPlayer);
             if (nextTrigger != null)
                 nextTrigger.SetActive(true);
             gameObject.SetActive(false);
