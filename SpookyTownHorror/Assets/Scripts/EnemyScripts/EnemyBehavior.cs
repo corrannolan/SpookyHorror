@@ -11,7 +11,7 @@ public class EnemyBehavior : MonoBehaviour
         Alert,
         Chase
     }
-    private State currentState = State.Patrol; // Patrol is the default behavior
+    public State currentState = State.Patrol; // Patrol is the default behavior
     public Transform eyes;      // Set to a gameobject to position raycast origin
     public Transform lowRaycast;
     public float sightRange;    // How far can the agent see
@@ -100,12 +100,12 @@ public class EnemyBehavior : MonoBehaviour
     }
     private void Patrol()
     {
-        navMeshAgent.destination = wayPoints[nextWayPoint].position;
+        //navMeshAgent.destination = wayPoints[nextWayPoint].position;
         navMeshAgent.isStopped = false;
-        if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance && !navMeshAgent.pathPending)
+        /*if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance && !navMeshAgent.pathPending)
         {
             nextWayPoint = (nextWayPoint + 1) % wayPoints.Length;
-        }
+        }*/
     }
     private void Search()
     {
