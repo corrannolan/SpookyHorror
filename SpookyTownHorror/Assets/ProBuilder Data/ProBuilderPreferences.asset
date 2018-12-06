@@ -12,13 +12,24 @@ MonoBehaviour:
   m_Name: ProBuilderPreferences
   m_EditorClassIdentifier: 
   m_Bool_keys: []
+<<<<<<< HEAD
   m_Int_keys: []
+=======
+  m_Int_keys:
+  - pbDefaultEditLevel
+  - pbDefaultSelectionMode
+  - pb_GIWorkflowMode
+>>>>>>> master
   m_Float_keys: []
   m_String_keys: []
   m_Color_keys: []
   m_Material_keys: []
   m_Bool_values: 
+<<<<<<< HEAD
   m_Int_values: 
+=======
+  m_Int_values: 010000000100000001000000
+>>>>>>> master
   m_Float_values: []
   m_String_values: []
   m_Color_values: []
