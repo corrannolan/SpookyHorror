@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-//using TMPro;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour {
     public string[] dialogue;
@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour {
     public int stopLine;
 
     public Text dBox;
+    public GameObject dialoguePanel;
 
 	// Use this for initialization
 	void Start () {
@@ -26,6 +27,7 @@ public class DialogueManager : MonoBehaviour {
     public void Dialogue()
     {
         StartCoroutine(nextLine());
+        dialoguePanel.SetActive(true);
         print("call");
     }
 
@@ -40,6 +42,7 @@ public class DialogueManager : MonoBehaviour {
         else
         {
             dBox.text = "";
+            dialoguePanel.SetActive(false);
         }
 
         print("lined");

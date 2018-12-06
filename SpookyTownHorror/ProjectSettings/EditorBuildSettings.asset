@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Ally/Title.unity
+    guid: 40d8d097655572540b86a58d815251fb
+  - enabled: 1
+    path: Assets/Scenes/Ally/Intro.unity
+    guid: 44dff71e509fbcb4ab19d4716a8c0051
+  - enabled: 1
+    path: Assets/Scenes/Ally/Yard.A.unity
+    guid: f6f6ef0485c500044811871f32fcc1a9
   m_configObjects: {}
