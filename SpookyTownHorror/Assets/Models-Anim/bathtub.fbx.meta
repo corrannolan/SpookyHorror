@@ -1,14 +1,7 @@
 fileFormatVersion: 2
 guid: 0a4f139fdcd8ca24fbe907b768e33b84
-<<<<<<< HEAD
 ModelImporter:
   serializedVersion: 23
-=======
-timeCreated: 1544042745
-licenseType: Free
-ModelImporter:
-  serializedVersion: 22
->>>>>>> Damon2.0
   fileIDToRecycleName:
     100000: //RootNode
     100002: group
@@ -61,10 +54,7 @@ ModelImporter:
     3300002: pCylinder3
     4300000: pCube2
     4300002: pCylinder3
-<<<<<<< HEAD
-=======
     9500000: //RootNode
->>>>>>> Damon2.0
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -84,10 +74,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-<<<<<<< HEAD
     importConstraints: 0
-=======
->>>>>>> Damon2.0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -119,11 +106,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-<<<<<<< HEAD
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
-=======
->>>>>>> Damon2.0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -148,11 +132,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-<<<<<<< HEAD
-  animationType: 0
-=======
   animationType: 2
->>>>>>> Damon2.0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
