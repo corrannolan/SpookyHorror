@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Material_keys: []
   m_Bool_values: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Int_values: 
   m_Float_values: []
 =======
@@ -58,6 +59,9 @@ MonoBehaviour:
 =======
   m_Int_values: 00000000000000000200000001000000
 >>>>>>> master
+=======
+  m_Int_values: 01000000000000000100000001000000
+>>>>>>> Corran1.2
   m_Float_values:
   - 0
   - 0
