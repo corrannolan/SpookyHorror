@@ -5719,37 +5719,6 @@ Prefab:
       propertyPath: currentCam
       value: 
       objectReference: {fileID: 40900976}
-    - target: {fileID: 114163282007220236, guid: 617a56bafdf02a249a077031f7050ab7,
-        type: 2}
-      propertyPath: moveSpeed
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1644006385943558, guid: 617a56bafdf02a249a077031f7050ab7, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1530490803110896, guid: 617a56bafdf02a249a077031f7050ab7, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1271603703399662, guid: 617a56bafdf02a249a077031f7050ab7, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1118273117932162, guid: 617a56bafdf02a249a077031f7050ab7, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 95013853473560598, guid: 617a56bafdf02a249a077031f7050ab7,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114307587210991294, guid: 617a56bafdf02a249a077031f7050ab7,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 617a56bafdf02a249a077031f7050ab7, type: 2}
   m_IsPrefabAsset: 0
