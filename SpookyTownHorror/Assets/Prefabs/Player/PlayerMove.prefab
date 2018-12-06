@@ -2090,8 +2090,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1920669711073134}
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 1, z: -0.5}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.25, y: 1, z: 5.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4206306116561768}
@@ -2674,7 +2674,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!95 &95013853473560598
 Animator:
   serializedVersion: 3
@@ -2682,7 +2682,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1325694413847144}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: 768c18e96e399e04596d8be141635040, type: 3}
   m_Controller: {fileID: 9100000, guid: dd537474dc796c64dabf6898b1af53b4, type: 2}
   m_CullingMode: 1
@@ -2705,7 +2705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerNum: 0
-  moveSpeed: 5
+  moveSpeed: 3.9
   currentCam: {fileID: 0}
   canMove: 1
 --- !u!114 &114307587210991294
@@ -2714,7 +2714,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1325694413847144}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af3ae9a1ed548ce4e85c13db7af6b919, type: 3}
   m_Name: 
@@ -2734,7 +2734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerNum: 0
   pMove: {fileID: 1920669711073134}
-  parentDir: {fileID: 0}
+  parentDir: {fileID: 4591895753872852}
 --- !u!114 &114621334906171662
 MonoBehaviour:
   m_ObjectHideFlags: 1
