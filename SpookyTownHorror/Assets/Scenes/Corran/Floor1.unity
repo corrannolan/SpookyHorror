@@ -33234,9 +33234,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 845005687}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e8122a2c1c886e418520233e86d7027, type: 3}
+  m_Script: {fileID: 11500000, guid: af117138b0857254a971c83218b9e908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextScene: Floor2
+  delaySwitch: 0
 --- !u!1001 &847373315
 Prefab:
   m_ObjectHideFlags: 0
@@ -39857,7 +39859,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh140004
+  m_Name: pb_Mesh96006
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2

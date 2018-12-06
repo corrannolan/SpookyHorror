@@ -23,12 +23,11 @@ public class PlayAnimations : MonoBehaviour {
             animator.SetBool("isMoving", true);
             Debug.Log("Moving");
         }
-        
-      /*  else
+        else
         {
             animator.SetBool("isMoving", false);
             Debug.Log("Not Moving");
 
-        }*/
+        }
     }
 }
