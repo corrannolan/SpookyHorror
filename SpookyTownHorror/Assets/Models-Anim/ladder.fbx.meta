@@ -1,39 +1,20 @@
 fileFormatVersion: 2
-guid: 6ac931989f0d4ba429e799f17005eee1
+guid: b56130dcc6fb6214bb22f4767ebcc7fb
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: house_walls_material
-    2100002: ceiling_material
-    2100004: white_material
-    2100006: lambert1
+    2100000: lambert1
     2300000: //RootNode
     3300000: //RootNode
-    4300000: hows
-    2186277476908879412: ImportLogs
+    4300000: pCylinder11
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: ceiling_material
-    second: {fileID: 2100000, guid: bcd1f0ac1eba5804db4b1d1bca691f3e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: house_walls_material
-    second: {fileID: 2100000, guid: 6c7575a7465e7fb4ba503db385fcc272, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: lambert1
-    second: {fileID: 2100000, guid: 9ab9796ef44c955499560351b780bea4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: white_material
-    second: {fileID: 2100000, guid: 29e63399402a94640b34a9fb5e40e484, type: 2}
+    second: {fileID: 2100000, guid: c95b96a095f24224f9dbdc78902b8cfe, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -64,7 +45,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 30
+    globalScale: 10
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
