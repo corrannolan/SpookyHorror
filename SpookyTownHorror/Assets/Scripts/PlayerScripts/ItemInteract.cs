@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ItemInteract : MonoBehaviour {
-
     private GameObject item;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -19,6 +19,4 @@ public class ItemInteract : MonoBehaviour {
     {
         item = other.gameObject;
     }
-
-
 }

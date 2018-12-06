@@ -1700,6 +1700,7 @@ MonoBehaviour:
   connectedCam: {fileID: 1479244439}
   player: {fileID: 141790324}
   newDirDel: 0.365
+  singleEvent: 0
 --- !u!64 &24820593
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18801,6 +18802,7 @@ MonoBehaviour:
   connectedCam: {fileID: 251500071}
   player: {fileID: 141790324}
   newDirDel: 0.365
+  singleEvent: 0
 --- !u!43 &757184672
 Mesh:
   m_ObjectHideFlags: 0
@@ -19578,6 +19580,7 @@ MonoBehaviour:
   connectedCam: {fileID: 0}
   player: {fileID: 0}
   newDirDel: 0.365
+  singleEvent: 0
 --- !u!1 &856636517
 GameObject:
   m_ObjectHideFlags: 0
@@ -19612,6 +19615,7 @@ MonoBehaviour:
   connectedCam: {fileID: 1638007060}
   player: {fileID: 141790324}
   newDirDel: 0.365
+  singleEvent: 0
 --- !u!64 &856636519
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20369,6 +20373,7 @@ MonoBehaviour:
   connectedCam: {fileID: 1288696677}
   player: {fileID: 141790324}
   newDirDel: 0.365
+  singleEvent: 0
 --- !u!64 &875149773
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22559,6 +22564,7 @@ MonoBehaviour:
   connectedCam: {fileID: 468829759}
   player: {fileID: 141790324}
   newDirDel: 0.365
+  singleEvent: 0
 --- !u!1 &1039978829
 GameObject:
   m_ObjectHideFlags: 0
@@ -23807,6 +23813,7 @@ MonoBehaviour:
   connectedCam: {fileID: 882436188}
   player: {fileID: 141790324}
   newDirDel: 0.365
+  singleEvent: 0
 --- !u!64 &1125342548
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -28503,6 +28510,7 @@ MonoBehaviour:
   connectedCam: {fileID: 2086009700}
   player: {fileID: 141790324}
   newDirDel: 0.365
+  singleEvent: 0
 --- !u!1 &1304468417
 GameObject:
   m_ObjectHideFlags: 3
@@ -30052,6 +30060,7 @@ MonoBehaviour:
   connectedCam: {fileID: 1582514878}
   player: {fileID: 141790324}
   newDirDel: 0.365
+  singleEvent: 0
 --- !u!43 &1427220539
 Mesh:
   m_ObjectHideFlags: 0
@@ -35953,6 +35962,7 @@ MonoBehaviour:
   connectedCam: {fileID: 1469372329}
   player: {fileID: 141790324}
   newDirDel: 0.365
+  singleEvent: 0
 --- !u!64 &1779918390
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36691,6 +36701,7 @@ MonoBehaviour:
   connectedCam: {fileID: 1906491022}
   player: {fileID: 141790324}
   newDirDel: 0.365
+  singleEvent: 0
 --- !u!43 &1801759106
 Mesh:
   m_ObjectHideFlags: 0
@@ -37676,6 +37687,7 @@ MonoBehaviour:
   connectedCam: {fileID: 40900976}
   player: {fileID: 141790324}
   newDirDel: 0.365
+  singleEvent: 0
 --- !u!43 &1842569474
 Mesh:
   m_ObjectHideFlags: 0
