@@ -11,7 +11,7 @@ public class EnemyBehavior : MonoBehaviour
         Alert,
         Chase
     }
-    private State currentState = State.Patrol; // Patrol is the default behavior
+    public State currentState = State.Patrol; // Patrol is the default behavior
     public Transform eyes;      // Set to a gameobject to position raycast origin
     public Transform lowRaycast;
     public float sightRange;    // How far can the agent see

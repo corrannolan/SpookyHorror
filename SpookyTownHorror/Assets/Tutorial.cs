@@ -16,7 +16,7 @@ public class Tutorial : MonoBehaviour {
     private Player player;
     public int playerID = 0;
 
-    public bool playAtStart, stopPlayer;
+    public bool playAtStart, stopPlayer, goAway;
 
 	// Use this for initialization
 	void Start () {
@@ -31,8 +31,14 @@ public class Tutorial : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        if (player.GetAnyButtonDown() && goAway)
+        {
+            HowToImage.DOFade(1f, 1f);
+            UIHowTo.gameObject.SetActive(false);
+            gameObject.SetActive(false);
+            pm.canMove = true;
+        }
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -40,8 +46,7 @@ public class Tutorial : MonoBehaviour {
         {
             if (stopPlayer)
             {
-                //pm.canMove = false;
-                pm.enabled = false;
+                pm.canMove = false;
             }
             StartCoroutine(Learn(whichTu));
         }
@@ -52,12 +57,7 @@ public class Tutorial : MonoBehaviour {
         UIHowTo.SetActive(true);
         HowToImage.DOFade(1f, 1f);
         yield return new WaitForSeconds(1f);
-        if (player.GetAnyButtonDown())
-        {
-            HowToImage.DOFade(1f, 1f);
-            UIHowTo.gameObject.SetActive(false);
-            gameObject.SetActive(false);
-            pm.enabled = true;
-        }
+
+        goAway = true;
     }
 }

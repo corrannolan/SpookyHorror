@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour {
             if (player.GetAxis("MoveV") != 0 || player.GetAxis("MoveH") != 0)
             {
                 moving = true;
-
+                rB.constraints = RigidbodyConstraints.FreezeRotation;
                 Vector3 fDir = gameObject.transform.forward * (player.GetAxisRaw("MoveV"));
                 Vector3 rDir = gameObject.transform.right * (player.GetAxisRaw("MoveH"));
                 dir = new Vector3(fDir.x + rDir.x, rB.velocity.y, rDir.z + fDir.z);
@@ -61,7 +61,8 @@ public class PlayerMovement : MonoBehaviour {
             {
                 moving = false;
                 rB.velocity = Vector3.zero;
-                rB.angularVelocity = Vector3.zero;
+                //rB.angularVelocity = Vector3.zero;
+                rB.constraints = RigidbodyConstraints.FreezeAll;
             }
         }
 	}
