@@ -13,9 +13,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Bool_keys: []
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
   m_Int_keys: []
   m_Float_keys: []
 =======
+>>>>>>> b70bf89ee4527a05939d3016bdf56c404463f18b
 <<<<<<< HEAD
   m_Int_keys:
   - pbHandleAlignment
@@ -32,7 +35,14 @@ MonoBehaviour:
   m_Int_keys: []
   m_Float_keys: []
 >>>>>>> Damon2.0
+<<<<<<< HEAD
+=======
+  m_Int_keys: []
+  m_Float_keys: []
+>>>>>>> Damon3.0
+=======
 >>>>>>> master
+>>>>>>> b70bf89ee4527a05939d3016bdf56c404463f18b
   m_String_keys: []
   m_Color_keys: []
   m_Material_keys: []
@@ -41,6 +51,7 @@ MonoBehaviour:
   m_Int_values: 
   m_Float_values: []
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_Int_values: 00000000
@@ -54,7 +65,14 @@ MonoBehaviour:
   m_Int_values: 
   m_Float_values: []
 >>>>>>> Damon2.0
+<<<<<<< HEAD
+=======
+  m_Int_values: 
+  m_Float_values: []
+>>>>>>> Damon3.0
+=======
 >>>>>>> master
+>>>>>>> b70bf89ee4527a05939d3016bdf56c404463f18b
   m_String_values: []
   m_Color_values: []
   m_Material_values: []
