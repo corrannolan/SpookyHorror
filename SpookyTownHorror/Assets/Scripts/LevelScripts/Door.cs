@@ -10,6 +10,7 @@ public class Door : MonoBehaviour {
     public bool locked;
 
     bool doorStop = false;
+    bool opening = false;
 
 	// Use this for initialization
 	void Start () {
@@ -28,11 +29,13 @@ public class Door : MonoBehaviour {
 
     public void Open()
     {
-        StartCoroutine(open());
+        if(opening == false)
+            StartCoroutine(open());
     }
 
     IEnumerator open()
     {
+        opening = true;
         doorStop = false;
         hJ.useMotor = true;
         yield return new WaitForSeconds(4);
@@ -50,6 +53,6 @@ public class Door : MonoBehaviour {
         dummyMot.targetVelocity = -25;
         dummyMot.force = 25;
         hJ.motor = dummyMot;
-        print("door opened");
+        opening = false;
     }
 }
