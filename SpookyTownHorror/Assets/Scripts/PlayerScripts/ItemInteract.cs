@@ -12,6 +12,8 @@ public class ItemInteract : MonoBehaviour {
     Door door;
     bool hasKey = false;
 
+    ItemDescription des;
+
 	// Use this for initialization
 	void Start () {
         player = ReInput.players.GetPlayer(playerNum);
@@ -50,12 +52,18 @@ public class ItemInteract : MonoBehaviour {
                     print("open door called");
                 }
             }
+
+            if(item.tag == "Description")
+            {
+                des = item.GetComponent<ItemDescription>();
+                des.PlayDialogue();
+            }
         }
 	}
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Door" || other.tag == "Key")
+        if(other.tag == "Door" || other.tag == "Key" || other.tag == "Description")
             item = other.gameObject;
     }
 }
