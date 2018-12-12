@@ -8,6 +8,8 @@ TagManager:
   - Hide
   - Door
   - Key
+  - Dialogue
+  - Description
   layers:
   - Default
   - TransparentFX
