@@ -18,11 +18,7 @@ public class PlayAnimations : MonoBehaviour {
     // Update is called once per frame
     void Update() {
 
-<<<<<<< HEAD
-        if (player.GetAxis("MoveV") != 0 || player.GetAxis("MoveH") != 0)
-=======
         if(player.GetAxis("MoveV") != 0 || player.GetAxis("MoveH") != 0)
->>>>>>> master
         {
             animator.SetBool("isMoving", true);
             Debug.Log("Moving");
