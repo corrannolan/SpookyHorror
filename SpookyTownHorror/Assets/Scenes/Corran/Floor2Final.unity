@@ -1070,7 +1070,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &46813668
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -75437,7 +75437,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh653288
+  m_Name: pb_Mesh971848
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
