@@ -10,6 +10,8 @@ TagManager:
   - Key
   - Dialogue
   - Description
+  - DialogueA
+  - DialogueB
   layers:
   - Default
   - TransparentFX
