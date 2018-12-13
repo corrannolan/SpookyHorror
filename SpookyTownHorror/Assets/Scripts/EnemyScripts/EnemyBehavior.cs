@@ -4,6 +4,7 @@ using System.Collections;
 using UnityEngine.AI;
 public class EnemyBehavior : MonoBehaviour
 {
+    /**
     // Possible behavior states
     public enum State
     {
@@ -24,14 +25,23 @@ public class EnemyBehavior : MonoBehaviour
     private int nextWayPoint;       // Waypoint to move towards
     public float searchingDuration = 2f;        // How long to remain in Search state
     public float searchingTurnSpeed = 120f;     // Speed of search sweep
-    private float searchTimer;                  // Keep track of time spent searching for target
+    private float searchTimer;                  // Keep track of time spent searching for target*/
+
+    NavMeshAgent nM;
+
+    public GameObject desPoint;
+    GameObject player;
+
+    public bool chasing = true;
+    
     void Start()
     {
-        navMeshAgent = GetComponent<NavMeshAgent>();
+        nM = GetComponent<NavMeshAgent>();
     }
+
     void Update()
     {
-        Look();
+        /*Look();
         switch (currentState)
         {
             case State.Patrol:
@@ -43,10 +53,15 @@ public class EnemyBehavior : MonoBehaviour
             case State.Chase:
                 Chase();
                 break;
-        }
+        }*/
+        if (chasing == true)
+            nM.destination = player.transform.position;
+        else
+            nM.destination = desPoint.transform.position;
     }
+
     // Look for target
-    private void Look()
+    /*private void Look()
     {
         RaycastHit lowhit;
         RaycastHit hit;
@@ -129,5 +144,5 @@ public class EnemyBehavior : MonoBehaviour
         {
             currentState = State.Alert;
         }
-    }
+    }*/
 }

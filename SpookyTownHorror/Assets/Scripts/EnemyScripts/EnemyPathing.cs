@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class EnemyPathing : MonoBehaviour {
-    NavMeshAgent nA;
+    /*NavMeshAgent nA;
     EnemyBehavior eB;
 
     public int currentSet = 0;
@@ -86,5 +86,5 @@ public class EnemyPathing : MonoBehaviour {
     {
         point = 0;
         nA.speed = runningSpeed;
-    }
+    }*/
 }

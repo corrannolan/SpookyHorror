@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyNewPath : MonoBehaviour {
-    public EnemyPathing eP;
+    /*public EnemyPathing eP;
 
     public int setNum;
 
@@ -24,5 +24,5 @@ public class EnemyNewPath : MonoBehaviour {
             eP.currentSet = setNum;
             eP.NextSet();
         }
-    }
+    }*/
 }
