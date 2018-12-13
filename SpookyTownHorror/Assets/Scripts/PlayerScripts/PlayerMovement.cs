@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour {
     Rigidbody rB;
     Vector3 dir;
     public float moveSpeed;
+   // Animator m_Animator;
 
     PlayerTurn pT;
 
@@ -27,6 +28,7 @@ public class PlayerMovement : MonoBehaviour {
 
         rB = gameObject.GetComponent<Rigidbody>();
         pT = gameObject.GetComponentInChildren<PlayerTurn>();
+      //  m_Animator = gameObject.GetComponentsInChildren<Animator>();
 
         gameObject.transform.forward = new Vector3(currentCam.transform.forward.x, 0, currentCam.transform.forward.z);
         pT.parentDir = gameObject.transform;
@@ -48,6 +50,7 @@ public class PlayerMovement : MonoBehaviour {
             if (player.GetAxis("MoveV") != 0 || player.GetAxis("MoveH") != 0)
             {
                 moving = true;
+        //        m_Animator.SetBool("isMoving", true);
                 rB.constraints = RigidbodyConstraints.FreezeRotation;
                 Vector3 fDir = gameObject.transform.forward * (player.GetAxisRaw("MoveV"));
                 Vector3 rDir = gameObject.transform.right * (player.GetAxisRaw("MoveH"));
@@ -58,6 +61,7 @@ public class PlayerMovement : MonoBehaviour {
             else
             {
                 moving = false;
+          //      m_Animator.SetBool("isMoving", false);
                 rB.velocity = Vector3.zero;
                 //rB.angularVelocity = Vector3.zero;
                 rB.constraints = RigidbodyConstraints.FreezeAll;
