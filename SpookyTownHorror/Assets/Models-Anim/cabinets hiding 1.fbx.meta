@@ -64,7 +64,17 @@ ModelImporter:
     4300004: pCube4
     4300006: pCube5
     4300008: polySurface2
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 9486d8bf8f5a47249b66d27e98ff1496, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 9486d8bf8f5a47249b66d27e98ff1496, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
