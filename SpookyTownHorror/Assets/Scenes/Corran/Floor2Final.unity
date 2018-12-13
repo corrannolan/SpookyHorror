@@ -11557,7 +11557,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-4010284
+  m_Name: pb_Mesh37826
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -23663,8 +23663,8 @@ MonoBehaviour:
   - 3
   line: 0
   stopLine: 0
-  dBox: {fileID: 0}
-  dialoguePanel: {fileID: 0}
+  dBox: {fileID: 1534830561}
+  dialoguePanel: {fileID: 1657911689}
   stopping: 0
 --- !u!4 &680569701
 Transform:
@@ -29282,7 +29282,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 884646760}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -40685,7 +40685,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-4010278
+  m_Name: pb_Mesh37322
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -63952,7 +63952,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-4010286
+  m_Name: pb_Mesh39052
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -67037,7 +67037,7 @@ GameObject:
   - component: {fileID: 1766973873}
   m_Layer: 12
   m_Name: Dialogue D
-  m_TagString: DialogueB
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -67389,7 +67389,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1766973871}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -73092,7 +73092,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1921251362}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -78364,7 +78364,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-4010282
+  m_Name: pb_Mesh39214
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2

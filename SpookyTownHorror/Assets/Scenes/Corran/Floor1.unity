@@ -3032,7 +3032,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh521238
+  m_Name: pb_Mesh20526
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -18077,7 +18077,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-3991112
+  m_Name: pb_Mesh20294
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -21997,7 +21997,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-3991106
+  m_Name: pb_Mesh20310
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -34365,8 +34365,8 @@ MonoBehaviour:
   - 3
   line: 0
   stopLine: 0
-  dBox: {fileID: 0}
-  dialoguePanel: {fileID: 0}
+  dBox: {fileID: 2040035126}
+  dialoguePanel: {fileID: 1306201918}
   stopping: 0
 --- !u!4 &823462808
 Transform:
@@ -46373,7 +46373,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh303068
+  m_Name: pb_Mesh20804
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
