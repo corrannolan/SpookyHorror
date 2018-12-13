@@ -36082,11 +36082,6 @@ Prefab:
       propertyPath: currentCam
       value: 
       objectReference: {fileID: 1887216708}
-    - target: {fileID: 114163282007220236, guid: 617a56bafdf02a249a077031f7050ab7,
-        type: 2}
-      propertyPath: moveSpeed
-      value: 2.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 617a56bafdf02a249a077031f7050ab7, type: 2}
   m_IsPrefabAsset: 0
@@ -76920,7 +76915,6 @@ GameObject:
   - component: {fileID: 1981500400}
   - component: {fileID: 1981500405}
   - component: {fileID: 1981500404}
-  - component: {fileID: 1981500403}
   - component: {fileID: 1981500402}
   - component: {fileID: 1981500401}
   m_Layer: 0
@@ -77077,19 +77071,6 @@ MonoBehaviour:
   preset: 0
   onEnableBehaviour: 0
   onDisableBehaviour: 0
---- !u!114 &1981500403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1981500399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47117697acc6f0b4a994b81f434f80e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerID: 0
-  nextScene: Yard.A
 --- !u!114 &1981500404
 MonoBehaviour:
   m_ObjectHideFlags: 0

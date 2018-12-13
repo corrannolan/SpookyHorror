@@ -7,7 +7,7 @@ public class ItemInteract : MonoBehaviour {
     Player player;
     public int playerNum;
 
-    public GameObject item;
+    public GameObject item, UI;
 
     Door door;
     int keys = 0;
@@ -21,6 +21,10 @@ public class ItemInteract : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (item != null)
+        {
+            UI.SetActive(true);
+        }
         if (player.GetButtonDown("Hide"))
         {
             if(item.tag == "Key")
@@ -65,5 +69,11 @@ public class ItemInteract : MonoBehaviour {
     {
         if(other.tag == "Door" || other.tag == "Key" || other.tag == "Description")
             item = other.gameObject;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Door" || other.tag == "Key" || other.tag == "Description")
+            item = null;
     }
 }
