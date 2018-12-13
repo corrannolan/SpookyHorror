@@ -1612,6 +1612,10 @@ MonoBehaviour:
   stopLine: 6
   nextTrigger: {fileID: 214950704}
   stopPlayer: 0
+  lastBox: 0
+  floor1: 0
+  floor2: 0
+  yard: 1
 --- !u!65 &214651907
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1682,6 +1686,10 @@ MonoBehaviour:
   stopLine: 10
   nextTrigger: {fileID: 723398351}
   stopPlayer: 0
+  lastBox: 0
+  floor1: 0
+  floor2: 0
+  yard: 1
 --- !u!1001 &225115017
 Prefab:
   m_ObjectHideFlags: 0
@@ -2958,6 +2966,10 @@ MonoBehaviour:
   stopLine: 11
   nextTrigger: {fileID: 0}
   stopPlayer: 0
+  lastBox: 0
+  floor1: 0
+  floor2: 0
+  yard: 0
 --- !u!1001 &478401345
 Prefab:
   m_ObjectHideFlags: 0
@@ -4300,7 +4312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af117138b0857254a971c83218b9e908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: 0
+  nextScene: 3
   delaySwitch: 0.5
 --- !u!65 &596714938
 BoxCollider:
@@ -5178,6 +5190,10 @@ MonoBehaviour:
   stopLine: 12
   nextTrigger: {fileID: 1986396001}
   stopPlayer: 0
+  lastBox: 0
+  floor1: 0
+  floor2: 0
+  yard: 1
 --- !u!1 &727325133
 GameObject:
   m_ObjectHideFlags: 0
@@ -6627,6 +6643,10 @@ MonoBehaviour:
   stopLine: 2
   nextTrigger: {fileID: 214651904}
   stopPlayer: 0
+  lastBox: 0
+  floor1: 0
+  floor2: 0
+  yard: 1
 --- !u!1001 &888240271
 Prefab:
   m_ObjectHideFlags: 0
@@ -22100,6 +22120,50 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: df5f840ad75d77f4185ce0eb61e2563a,
     type: 3}
   m_PrefabInternal: {fileID: 1662767461}
+--- !u!1 &1857878841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1857878843}
+  - component: {fileID: 1857878842}
+  m_Layer: 0
+  m_Name: Story Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1857878842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857878841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dfcac1a375f42148b93203bd097f0f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emptyFloor1: 0
+  emptyFloor2: 0
+  emptyBasement: 0
+  AfterBasement: 0
+--- !u!4 &1857878843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1857878841}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -83.23763, y: -18.002357, z: 15.869375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1860792279
 GameObject:
   m_ObjectHideFlags: 0
@@ -22781,6 +22845,10 @@ MonoBehaviour:
   stopLine: 11
   nextTrigger: {fileID: 596714936}
   stopPlayer: 0
+  lastBox: 0
+  floor1: 0
+  floor2: 0
+  yard: 1
 --- !u!65 &1986396004
 BoxCollider:
   m_ObjectHideFlags: 0
