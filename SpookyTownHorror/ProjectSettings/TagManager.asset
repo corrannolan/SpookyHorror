@@ -23,7 +23,7 @@ TagManager:
   - Ground
   - item
   - interact
-  - Inpplayerut.GetButtoplayernDown
+  - trigger
   - player
   - 
   - 

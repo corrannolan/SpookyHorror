@@ -9,6 +9,7 @@ public class PlayerHide : MonoBehaviour
     public int playerNum;
 
     CapsuleCollider cC;
+    float startingHeight;
     public float crouchHeight = 0.85f;
     MeshRenderer mR;
     Rigidbody rB;
@@ -29,6 +30,8 @@ public class PlayerHide : MonoBehaviour
         rB = gameObject.GetComponent<Rigidbody>();
 
         pM = gameObject.GetComponent<PlayerMovement>();
+
+        startingHeight = cC.height;
     }
 
     // Update is called once per frame
@@ -42,7 +45,7 @@ public class PlayerHide : MonoBehaviour
         else
         {
             cC.center = Vector3.zero;
-            cC.height = 2;
+            cC.height = startingHeight;
         }
 
         if (player.GetButtonDown("Hide"))
