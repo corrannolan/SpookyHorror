@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour {
 
-    public string nextScene;
+    public int nextScene;
     public float delaySwitch;
 
     private void OnTriggerEnter(Collider other)
