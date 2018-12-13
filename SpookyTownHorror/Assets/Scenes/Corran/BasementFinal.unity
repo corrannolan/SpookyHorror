@@ -2272,7 +2272,7 @@ GameObject:
   - component: {fileID: 29888411}
   m_Layer: 12
   m_Name: Dialogue A
-  m_TagString: DialogueA
+  m_TagString: Dialogue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -2653,6 +2653,10 @@ MonoBehaviour:
   stopLine: 0
   nextTrigger: {fileID: 1380979759}
   stopPlayer: 0
+  lastBox: 0
+  floor1: 0
+  floor2: 0
+  yard: 0
 --- !u!1 &39553933
 GameObject:
   m_ObjectHideFlags: 0
@@ -13476,7 +13480,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh117372
+  m_Name: pb_Mesh356474
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -25905,7 +25909,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh116110
+  m_Name: pb_Mesh355174
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -36680,11 +36684,11 @@ GameObject:
   - component: {fileID: 1380979766}
   m_Layer: 12
   m_Name: Dialogue B
-  m_TagString: DialogueA
+  m_TagString: Dialogue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1380979760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37501,6 +37505,10 @@ MonoBehaviour:
   stopLine: 1
   nextTrigger: {fileID: 0}
   stopPlayer: 0
+  lastBox: 1
+  floor1: 0
+  floor2: 0
+  yard: 0
 --- !u!43 &1381497237
 Mesh:
   m_ObjectHideFlags: 0
