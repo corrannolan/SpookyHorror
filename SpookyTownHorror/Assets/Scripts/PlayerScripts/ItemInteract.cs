@@ -46,6 +46,7 @@ public class ItemInteract : MonoBehaviour {
                     }
                     else
                     {
+                        keys--;
                         door.locked = false;
                     }
                 }
