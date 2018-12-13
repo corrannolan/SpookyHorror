@@ -9141,6 +9141,61 @@ MonoBehaviour:
   player: {fileID: 141790324}
   newDirDel: 0.025
   singleEvent: 0
+--- !u!1 &228743257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 228743259}
+  - component: {fileID: 228743258}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &228743258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 228743257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a9553f4decf5f42b82fb0283c37060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "Calum: \"Hmm...I don\u2019t like this\u2026 Theo? Are you down here?\""
+  - "Calum: \"Fuck, it\u2019s dark in here\u2026 Where\u2019s the light?\""
+  - "Calum: \"Ah! Damn\u2026 they just left a radio on down here?\""
+  - 'Calum: "Wha-... What the fuck? What IS that?"'
+  dialogueTiming:
+  - 3
+  - 3
+  - 3
+  - 3
+  line: 0
+  stopLine: 0
+  dBox: {fileID: 0}
+  dialoguePanel: {fileID: 0}
+  stopping: 0
+--- !u!4 &228743259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 228743257}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &240378395
 Mesh:
   m_ObjectHideFlags: 0
@@ -31888,7 +31943,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &885725364
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -53589,7 +53644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af117138b0857254a971c83218b9e908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Floor1
+  nextScene: 0
   delaySwitch: 0
 --- !u!1 &1653028934
 GameObject:
@@ -63522,7 +63577,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-3438884
+  m_Name: pb_Mesh41596
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
