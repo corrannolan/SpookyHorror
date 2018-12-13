@@ -53220,7 +53220,7 @@ GameObject:
   - component: {fileID: 1304608665}
   - component: {fileID: 1304608664}
   m_Layer: 0
-  m_Name: DialogueManager
+  m_Name: Dialogue Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
