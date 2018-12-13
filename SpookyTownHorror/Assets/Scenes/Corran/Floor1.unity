@@ -30716,6 +30716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b3af32b22f9bcd47a041c71912cca6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  iI: {fileID: 1885704651}
 --- !u!43 &715001542
 Mesh:
   m_ObjectHideFlags: 0
@@ -55416,7 +55417,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh101210
+  m_Name: pb_Mesh38040
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -72255,6 +72256,12 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 617a56bafdf02a249a077031f7050ab7, type: 2}
   m_IsPrefabAsset: 0
+--- !u!114 &1885704651 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114643015320439816, guid: 617a56bafdf02a249a077031f7050ab7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1885704650}
+  m_Script: {fileID: 11500000, guid: bc50fa3380744824595cf3e54952d4bf, type: 3}
 --- !u!43 &1888195861
 Mesh:
   m_ObjectHideFlags: 0
