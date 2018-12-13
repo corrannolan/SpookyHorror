@@ -35,24 +35,41 @@ public class Door : MonoBehaviour {
 
     IEnumerator open()
     {
-        opening = true;
-        doorStop = false;
-        hJ.useMotor = true;
-        yield return new WaitForSeconds(4);
-        hJ.useMotor = false;
-        doorStop = true;
-        yield return new WaitForSeconds(4);
-        doorStop = false;
-        dummyMot.targetVelocity = 25;
-        dummyMot.force = 25;
-        hJ.motor = dummyMot;
-        hJ.useMotor = true;
-        yield return new WaitForSeconds(4);
-        hJ.useMotor = false;
-        doorStop = true;
         dummyMot.targetVelocity = -25;
         dummyMot.force = 25;
         hJ.motor = dummyMot;
+
+        opening = true;
+        doorStop = false;
+
+        hJ.useMotor = true;
+        yield return new WaitForSeconds(4);
+        hJ.useMotor = false;
+
+        doorStop = true;
+        yield return new WaitForSeconds(4);
+
+        /*dummyMot.targetVelocity = 0;
+        dummyMot.force = 0;
+        hJ.motor = dummyMot;*/
+
+        dummyMot.targetVelocity = 25;
+        dummyMot.force = 25;
+        hJ.motor = dummyMot;
+
+        hJ.useMotor = true;
+        yield return new WaitForSeconds(5.34f);
+        hJ.useMotor = false;
+        doorStop = true;
         opening = false;
+
+        /*dummyMot.targetVelocity = 0;
+        dummyMot.force = 0;
+        hJ.motor = dummyMot;
+
+        dummyMot.targetVelocity = -25;
+        dummyMot.force = 25;
+        hJ.motor = dummyMot;*/
+        print("closed");
     }
 }
