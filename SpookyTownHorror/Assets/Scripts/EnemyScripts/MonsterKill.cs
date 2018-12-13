@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MonsterKill : MonoBehaviour {
+    public string currentScene;
 
 	// Use this for initialization
 	void Start () {
@@ -16,9 +17,9 @@ public class MonsterKill : MonoBehaviour {
 	}
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(currentScene);
         }
     }
 }
