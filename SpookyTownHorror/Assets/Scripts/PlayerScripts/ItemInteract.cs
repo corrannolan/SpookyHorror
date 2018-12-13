@@ -10,7 +10,7 @@ public class ItemInteract : MonoBehaviour {
     public GameObject item;
 
     Door door;
-    bool hasKey = false;
+    int keys = 0;
 
     ItemDescription des;
 
@@ -25,7 +25,7 @@ public class ItemInteract : MonoBehaviour {
         {
             if(item.tag == "Key")
             {
-                hasKey = true;
+                keys++;
                 item.SetActive(false);
             }
 
@@ -36,7 +36,7 @@ public class ItemInteract : MonoBehaviour {
 
                 if(door.locked == true)
                 {
-                    if(hasKey == false)
+                    if(keys <= 0)
                     {
                         //locked UI pop-up
                     }
