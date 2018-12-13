@@ -11557,7 +11557,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh350868
+  m_Name: pb_Mesh37826
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -14553,10 +14553,6 @@ MonoBehaviour:
   stopLine: 0
   nextTrigger: {fileID: 0}
   stopPlayer: 0
-  lastBox: 1
-  floor1: 0
-  floor2: 1
-  yard: 0
 --- !u!114 &413661233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28968,10 +28964,6 @@ MonoBehaviour:
   stopLine: 3
   nextTrigger: {fileID: 0}
   stopPlayer: 0
-  lastBox: 0
-  floor1: 0
-  floor2: 1
-  yard: 0
 --- !u!114 &884646763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29290,7 +29282,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 884646760}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -40693,7 +40685,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh350364
+  m_Name: pb_Mesh37322
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -63960,7 +63952,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh352094
+  m_Name: pb_Mesh39052
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -67045,7 +67037,7 @@ GameObject:
   - component: {fileID: 1766973873}
   m_Layer: 12
   m_Name: Dialogue D
-  m_TagString: DialogueB
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
@@ -67079,10 +67071,6 @@ MonoBehaviour:
   stopLine: 0
   nextTrigger: {fileID: 0}
   stopPlayer: 0
-  lastBox: 1
-  floor1: 0
-  floor2: 1
-  yard: 0
 --- !u!114 &1766973874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67401,7 +67389,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1766973871}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -72786,10 +72774,6 @@ MonoBehaviour:
   stopLine: 2
   nextTrigger: {fileID: 0}
   stopPlayer: 0
-  lastBox: 0
-  floor1: 0
-  floor2: 1
-  yard: 0
 --- !u!114 &1921251365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73108,7 +73092,7 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1921251362}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 2
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -78380,7 +78364,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh352256
+  m_Name: pb_Mesh39214
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
