@@ -18085,7 +18085,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh444128
+  m_Name: pb_Mesh499586
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -22005,7 +22005,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh444144
+  m_Name: pb_Mesh499602
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -57179,7 +57179,7 @@ GameObject:
   - component: {fileID: 1439953592}
   - component: {fileID: 1439953591}
   m_Layer: 0
-  m_Name: Story Manager 1
+  m_Name: Story Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
