@@ -7,6 +7,8 @@ public class Door : MonoBehaviour {
     HingeJoint hJ;
     JointMotor dummyMot;
 
+    StoryManager sM;
+
     public bool locked;
 
     bool doorStop = false;
@@ -16,6 +18,8 @@ public class Door : MonoBehaviour {
 	void Start () {
         rB = GetComponent<Rigidbody>();
         hJ = GetComponent<HingeJoint>();
+
+        sM = GameObject.FindGameObjectWithTag("StoryManager").GetComponent<StoryManager>();
 	}
 	
 	// Update is called once per frame
@@ -24,6 +28,11 @@ public class Door : MonoBehaviour {
         {
             rB.angularVelocity = Vector3.zero;
             rB.velocity = Vector3.zero;
+        }
+
+        if(sM.AfterBasement == true)
+        {
+            locked = false;
         }
 	}
 
