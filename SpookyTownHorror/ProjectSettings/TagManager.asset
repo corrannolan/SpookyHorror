@@ -12,6 +12,7 @@ TagManager:
   - Description
   - DialogueA
   - DialogueB
+  - StoryManager
   layers:
   - Default
   - TransparentFX

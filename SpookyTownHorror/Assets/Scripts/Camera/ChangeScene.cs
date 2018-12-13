@@ -4,15 +4,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour {
-
-    public int nextScene;
+    public string nextScene;
     public float delaySwitch;
+
+    public bool canUse = true;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-            StartCoroutine(changeScene());
+            if(canUse == true)
+                StartCoroutine(changeScene());
         }
     }
 
