@@ -30,7 +30,7 @@ public class EnemyBehavior : MonoBehaviour
     NavMeshAgent nM;
 
     public GameObject desPoint;
-    GameObject player;
+    public GameObject player;
 
     public bool chasing = true;
     
