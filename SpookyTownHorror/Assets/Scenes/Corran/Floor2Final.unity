@@ -1070,7 +1070,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 127
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &46813668
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1456,7 +1456,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 72f0f87aca52cf549b128b8ac3deaac5, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 72f0f87aca52cf549b128b8ac3deaac5, type: 3}
       propertyPath: m_LocalScale.x
@@ -3141,7 +3141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: -21.294033, y: 0.9358964, z: -1.1550045}
+  m_FollowOffset: {x: -16.859, y: 0.06589651, z: -1.015005}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -17526,7 +17526,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: f232b59464a4d8a45af8ed5a8fa1301b, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: f232b59464a4d8a45af8ed5a8fa1301b, type: 3}
       propertyPath: m_LocalScale.x
@@ -20149,6 +20149,83 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &530387967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 530387968}
+  - component: {fileID: 530387970}
+  - component: {fileID: 530387969}
+  m_Layer: 11
+  m_Name: journal
+  m_TagString: Description
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &530387968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 530387967}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18, y: 6.072, z: 25.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1278050758}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &530387969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 530387967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94886697b82b75c4b8ea4b69b06e0da3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 1657911689}
+  dialogueText: {fileID: 1534830561}
+  dialogue:
+  - "Calum: \"Theo\u2019s dad\u2019s journal? I\u2019m kinda curious\u2026\""
+  - "\"The doctor wants me to write down whatever in this journal, so I\u2019m giving
+    this a shot for a bit. I hope it helps.\""
+  - "\"I keep having those nightmares again. The flames of the tent. Peter\u2019s
+    screams...\""
+  - "\"It\u2019s like it happened yesterday.\""
+  - "\"My wife doesn\u2019t remember that night very well\u2026 but I know that Peter
+    is still with us.\""
+  - '"He has to be."'
+  - 'Calum: "Peter...?"'
+  - "\"Junior keeps telling me that his brother is gone. But that\u2019s just not
+    true!\""
+  - "\"I ran into Peter just earlier today. He\u2019s still the sweet little boy I
+    know and love.\""
+  - '"I saw him playing around with the radio in the basement."'
+  - "\"I\u2019ll make sure he\u2019s okay every day.\""
+  - "\"I\u2019m so glad Peter found his way back to us.\""
+  - "\"I\u2019m never losing him again."
+  - 'Calum: "..."'
+  - 'Calum: "That doesn''t sound good..."'
+  dialogueTime: 4
+--- !u!65 &530387970
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 530387967}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7443798, y: 2.892877, z: 2.7029808}
+  m_Center: {x: 0.5852944, y: 0.6983016, z: 0.8852468}
 --- !u!43 &550551766
 Mesh:
   m_ObjectHideFlags: 0
@@ -22709,6 +22786,65 @@ Transform:
   m_Father: {fileID: 1360160389}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 23.101002, y: -66.011, z: 0.001}
+--- !u!1 &628901583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 628901584}
+  - component: {fileID: 628901586}
+  - component: {fileID: 628901585}
+  m_Layer: 11
+  m_Name: photos
+  m_TagString: Description
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &628901584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 628901583}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 9, y: 5, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1278050758}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &628901585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 628901583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94886697b82b75c4b8ea4b69b06e0da3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 1657911689}
+  dialogueText: {fileID: 1534830561}
+  dialogue:
+  - "Calum: \"Some nice family photos\u2026 Oh! This kid HAS to be Theo. How cute\u2026\""
+  - "Calum: \"Who\u2019s the other kid? I didn\u2019t know Theo has a brother\u2026?\""
+  dialogueTime: 4
+--- !u!65 &628901586
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 628901583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2238731, y: 2.64474, z: 1.7247877}
+  m_Center: {x: 0.7371149, y: 0.82237005, z: 0.8845458}
 --- !u!1 &645636813
 GameObject:
   m_ObjectHideFlags: 0
@@ -23189,7 +23325,7 @@ Transform:
   - {fileID: 1360160389}
   - {fileID: 1146725584}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &673392738
 GameObject:
@@ -23807,6 +23943,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &699182809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 699182810}
+  - component: {fileID: 699182812}
+  - component: {fileID: 699182811}
+  m_Layer: 11
+  m_Name: office key
+  m_TagString: Description
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &699182810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 699182809}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.25, y: 4.74, z: -6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1278050758}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &699182811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 699182809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94886697b82b75c4b8ea4b69b06e0da3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguePanel: {fileID: 1657911689}
+  dialogueText: {fileID: 1534830561}
+  dialogue:
+  - 'Calum: "Oh sick, a key! With a note?"'
+  - "\"Elaine, don\u2019t move my key to the basement. It\u2019s important. I don\u2019t
+    care if you don\u2019t believe me   -Teddy\""
+  dialogueTime: 4
+--- !u!65 &699182812
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 699182809}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2238731, y: 2.64474, z: 1.7247877}
+  m_Center: {x: 0.7371149, y: 0.82237005, z: 0.8845458}
 --- !u!1 &701243112
 GameObject:
   m_ObjectHideFlags: 0
@@ -31873,7 +32069,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 99b13caba6d77b64591a16ba38b1ea15, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 99b13caba6d77b64591a16ba38b1ea15, type: 3}
       propertyPath: m_LocalScale.x
@@ -35651,7 +35847,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4591895753872852, guid: 617a56bafdf02a249a077031f7050ab7, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114163282007220236, guid: 617a56bafdf02a249a077031f7050ab7,
         type: 2}
@@ -42344,7 +42540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: -6.2960033, y: 0.025895596, z: -11.449005}
+  m_FollowOffset: {x: -6.296003, y: 0.0258956, z: -11.44901}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -45541,6 +45737,9 @@ Transform:
   - {fileID: 1921251363}
   - {fileID: 884646761}
   - {fileID: 1766973872}
+  - {fileID: 699182810}
+  - {fileID: 628901584}
+  - {fileID: 530387968}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -53003,7 +53202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: -2.9699998, y: 0, z: -14.810017}
+  m_FollowOffset: {x: -2.97, y: 0, z: -14.81002}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -61698,7 +61897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: -7.6007996, y: 1.2966604, z: -15.23251}
+  m_FollowOffset: {x: -7.6008, y: 1.29666, z: -15.23251}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -64146,7 +64345,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh34596
+  m_Name: pb_Mesh577416
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -70914,7 +71113,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 518e6322916a0574b87f9fa1eec925fe, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 518e6322916a0574b87f9fa1eec925fe, type: 3}
       propertyPath: m_LocalScale.x
@@ -74549,7 +74748,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh532558
+  m_Name: pb_Mesh653288
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -75947,7 +76146,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 07255f54d97b240479215bfc9b3bc279, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.987
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 07255f54d97b240479215bfc9b3bc279, type: 3}
       propertyPath: m_LocalPosition.y
@@ -75955,7 +76154,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 07255f54d97b240479215bfc9b3bc279, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.552
+      value: -4.75
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 07255f54d97b240479215bfc9b3bc279, type: 3}
       propertyPath: m_LocalRotation.x
@@ -79244,7 +79443,7 @@ Transform:
   m_LocalScale: {x: 3, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2062046664
 GameObject:
@@ -80739,7 +80938,7 @@ Transform:
   - {fileID: 1159791858}
   - {fileID: 1689715147}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2123347657
 GameObject:
